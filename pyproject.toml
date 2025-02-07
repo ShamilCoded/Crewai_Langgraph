@@ -28,7 +28,7 @@ streamlit = "^1.42.0"
 pandas = "^2.2.3"
 wikipedia = "^1.4.0"
 langgraph = "^0.2.70"
-sqlite3= ^"3.35.0"
+sqlite3= 3.35.0
 
 [build-system]
 requires = ["poetry-core"]
