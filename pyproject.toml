@@ -8,26 +8,26 @@ package-mode = false
 
 
 [tool.poetry.dependencies]
-python
-fastapi
-python-dotenv
-langchain
-crewai
-replicate
-langchain-google-genai
-matplotlib
-crewai-tools
-requests
-pydantic
-astropy
-skyfield
-tavily-python
-plotly
-numpy
-streamlit
-pandas
-wikipedia
-langgraph
+python = ">=3.10,<3.13"
+fastapi = "^0.115.8"
+python-dotenv = "^1.0.1"
+langchain = "^0.3.17"
+crewai = {extras = ["tools"], version = "^0.100.1"}
+replicate = "^1.0.4"
+langchain-google-genai = "^2.0.9"
+matplotlib = "^3.10.0"
+crewai-tools = "^0.33.0"
+requests = "^2.32.3"
+pydantic = "^2.10.6"
+astropy = "^6.0"
+skyfield = "^1.49"
+tavily-python = "^0.5.1"
+plotly = "^6.0.0"
+numpy = "^1.22.4"
+streamlit = "^1.42.0"
+pandas = "^2.2.3"
+wikipedia = "^1.4.0"
+langgraph = "^0.2.70"
 
 
 [build-system]
