@@ -1,1 +1,1 @@
-sqlite
+libsqlite3-dev
